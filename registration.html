@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Onwuemene Joshua" />
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css" />
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+     <nav>
+        <div id="navlinks">
+          <a class="navi" href="Index.html">About me</a>
+          <a class="navi" href="contact.html">Contact page</a>
+          <a class="navi" href="registration.html">Registration page</a>
+          <a class="navi" href="login.html">Login page</a>
+        </div>
+      </nav>
+    </header>
+    <br><br><br><br>
+
+    <main>
+      
+     <form action="#" method="post" id="form">
+        <table border="1" height="500px">
+      
+          <tr>
+            <th colspan="2" style="margin-left: 80px" height="70px" id="sign">SIGN UP</th>
+          </tr>
+
+          <tr>
+            <td>Firstname : </td> 
+            <td><input type="text" name="" id="name" style="margin-left: 50px;" required><br></td>
+          </tr>
+
+          <tr>
+            <td>Lastname : </td>
+            <td><input type="text" name="" id="name" style="margin-left: 50px;" required> </td> 
+          </tr>
+
+          <tr>
+            <td>Phone : </td>
+            <td><input type="tel" id="phone" style="margin-left: 50px;" required></td>
+          </tr>
+
+          <tr>
+            <td>Gender : </td>
+            <td><select name="Gender" id="Gender" required style="margin-left: 50px;" >
+       
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      <option value="doubtful">Prefer not to say</option></td>
+        
+          </tr>
+
+          <tr>
+            <br>
+            <td>country : </td>
+            <td><input type="text" name=""  required id="country" style="margin-left: 50px;"></td>
+          </tr>
+
+          <tr>
+            <td>State/Province : </td>
+            <td><input type="text" name="" id="State" required style="margin-left: 50px;"></td>
+          </tr>
+
+          <tr>
+            <td>email : 
+              <i class="fa fa-envelope-o"></i>
+            </td>
+            <td>
+                  <input
+                    type="email"
+                    name=""
+                    id="email"
+                    required
+                    placeholder="example@gmail.com"
+                    style="margin-left: 50px"
+                  />
+                </td>
+          </tr>
+
+          <tr>
+            <td>password : 
+               <i class="fa fa-key"></i>
+            </td>
+            <td><input type="password" name="" id="password" min.length="8" required style="margin-left: 50px;"></td>
+          </tr>
+
+          <tr>
+            <td>Confirm Password : 
+              <i class="fa fa-key"></i>
+            </td>
+            <td><input type="password" name="" id="password" min.length="8" required style="margin-left: 50px;"></td>
+          </tr>
+
+          <tr>
+              
+                <td colspan="2"><input type="submit" value="SUBMIT" style="margin-left: 200px;" id="submit"/></td>
+              </tr>
+        </table>
+        </form>
+    </main>
+    <br><br>
+    <footer>
+      <p id="ending">
+            copyright&copy; 2022, ZURI TRAINING | All right reserved | website
+            by
+            <mark>Joshua</mark>
+          </p>
+    </footer>
+  </body>
+</html>

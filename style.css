@@ -1,0 +1,225 @@
+/* STYLING FOR THE HOME  PAGE*/
+
+*{
+    margin: 0;
+    /* font-size: 14px; */
+    font-weight: 400 700;
+    font-family: 'Open Sans',
+    sans-serif;
+    background-color: hsl(217, 28%, 15%);
+    color: hsl(0, 0%, 100%);
+   
+}
+
+nav{
+    text-align: right;
+}
+
+#navlinks{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color: gray;
+   padding: 20px 25px;
+   width: 80%;
+   margin: 0 auto;
+   border-radius: 5px;
+}
+
+.navi{
+    text-decoration: none;
+    background-color: gray;
+}
+
+a:hover{
+    color: peru;
+}
+a:active{
+    background-color: aquamarine;
+}
+
+#me{
+    /* display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#me p{
+    font-size: 25px;
+    padding: 20px;
+    width: 70%;
+}
+
+#me h1{
+    padding: 3rem;
+    text-align: center;
+}
+
+#image{
+    width: 500px;
+    clip-path: circle();
+}
+
+#btn1{
+    background-color: hsl(176, 68%, 64%);
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        padding: 15px 32px;
+        display: flex;
+        font-size: 15px;
+        width: 120px;
+        margin: 0 auto;
+        font-family: 'Raleway',
+            sans-serif;
+        border-radius: 6rem
+}
+
+#btn1:hover{
+    background-color: gray;
+}
+
+#abilities{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+}
+#joshua{
+    background-color: hsl(216, 53%, 9%);
+}
+#joshua h1{
+    padding-left: 5rem;
+    background-color: hsl(216, 53%, 9%);
+    padding-top: 3rem;
+
+}
+
+
+#company {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: hsl(216, 53%, 9%);
+    padding-bottom: 3rem;
+}
+footer h1{
+    padding: 5rem;
+    
+}
+
+#ending{
+    text-align: center;
+    background-color: hsl(216, 53%, 9%);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* STYLING FOR CONTACT PAGE */
+
+.contactus {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hello {
+ 
+    text-align: center;
+    margin-top: 50px;
+    height: 200px;
+}
+
+#you{
+    text-align: center;
+    font-size: 2em;
+}
+
+#name{
+    padding: 8px 30px;
+}
+#email{
+    padding: 8px 30px;
+}
+#Message{
+    padding: 8px 30px;
+}
+#tableone{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#submit{
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* STYLING FOR THE REGISTRATION PAGE */
+#phone{  padding: 8px 30px;
+}
+#country{
+    padding: 8px 30px;
+}
+#Gender{
+    padding: 8px 53px;
+}
+#State{
+    padding: 8px 30px;
+}
+#password{
+    padding: 8px 30px;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign{
+    background-color: gray;
+}
+
+#form tr{
+    border: 1px solid white;
+}
+
+#manners{
+    background-color: black;
+}
+
+#loginTable{
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#emailLogin{
+    padding: 10px 55px;
+}
+#loginpassword{
+    padding: 10px 55px;
+}
+
+#submitLogin{
+    padding: 10px 65px;
+}
+
+#footerEnding{
+    text-align: center;
+        background-color: hsl(216, 53%, 9%);
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+}

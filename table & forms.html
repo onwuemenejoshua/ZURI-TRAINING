@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        margin: 3px;
+        /* border-collapse: collapse; */
+      }
+      caption {
+        color: blue;
+        background-color: chartreuse;
+      }
+
+      thead,
+      th {
+        color: blue;
+      }
+      .table-row {
+        color: crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <table width="100%" cell spacing="5" cell padding="5">
+      <thead id="heading">
+        <caption>
+          <h2>St.Benedicta high School, Exams-Record</h2>
+          <h2>Mr Ade SS2 class</h2>
+        </caption>
+        <tr>
+          <th rowspan="2">S/n</th>
+          <th rowspan="2">Student</th>
+          <th colspan="5">Subject</th>
+          <th rowspan="2" colspan="2">Total Score</th>
+        </tr>
+        <tr>
+          <th>Mathematics</th>
+          <th>English</th>
+          <th>Physics</th>
+          <th>Chemistry</th>
+          <th>Biology</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="table-row">
+          <td>1</td>
+          <td>AdeKunle</td>
+          <td>72</td>
+          <td>43</td>
+          <td>78</td>
+          <td>73</td>
+          <td>37</td>
+          <td>303</td>
+        </tr>
+        <tr class="table-row">
+          <td>2</td>
+          <td>John</td>
+          <td>42</td>
+          <td>64</td>
+          <td>70</td>
+          <td>55</td>
+          <td>58</td>
+          <td>289</td>
+        </tr>
+        <tr class="table-row">
+          <td>3</td>
+          <td>Peter</td>
+          <td>62</td>
+          <td>40</td>
+          <td>73</td>
+          <td>75</td>
+          <td>99</td>
+          <td>349</td>
+        </tr>
+        <tr class="table-row">
+          <td>4</td>
+          <td>Rukayat</td>
+          <td>77</td>
+          <td>75</td>
+          <td>78</td>
+          <td>75</td>
+          <td>82</td>
+          <td>387</td>
+        </tr>
+        <tr class="table-row">
+          <td>5</td>
+          <td>Paul</td>
+          <td>72</td>
+          <td>40</td>
+          <td>72</td>
+          <td>70</td>
+          <td>97</td>
+          <td>351</td>
+        </tr>
+        <tr class="table-row">
+          <td>6</td>
+          <td>Victor</td>
+          <td>76</td>
+          <td>64</td>
+          <td>48</td>
+          <td>99</td>
+          <td>37</td>
+          <td>324</td>
+        </tr>
+        <tr class="table-row">
+          <td>7</td>
+          <td>John</td>
+          <td>62</td>
+          <td>54</td>
+          <td>78</td>
+          <td>75</td>
+          <td>64</td>
+          <td>333</td>
+        </tr>
+        <tr class="table-row">
+          <td>8</td>
+          <td>Doe</td>
+          <td>52</td>
+          <td>84</td>
+          <td>48</td>
+          <td>85</td>
+          <td>27</td>
+          <td>296</td>
+        </tr>
+        <tr class="table-row">
+          <td>9</td>
+          <td>Stephen</td>
+          <td>92</td>
+          <td>44</td>
+          <td>78</td>
+          <td>65</td>
+          <td>61</td>
+          <td>339</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <table width="100%">
+      <thead>
+        <tr>
+          <th>person1</th>
+          <th>person2</th>
+          <th>person3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Joshua</td>
+          <td>Paul</td>
+          <td>Mathias</td>
+        </tr>
+        <tr>
+          <td colspan="2">man</td>
+          <td>girl</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Felix</td>
+          <td>gani</td>
+          <td>paul</td>
+        </tr>
+        <tr>
+          <td>gani</td>
+          <td>paul</td>
+        </tr>
+      </tbody>
+      <tfoot></tfoot>
+    </table>
+    <br /><br />
+    <br /><br /><br />
+  </body>
+</html>
